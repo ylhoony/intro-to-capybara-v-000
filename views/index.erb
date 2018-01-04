@@ -7,10 +7,12 @@
 
   <h2>If you tell me your name, I can say hi!</h2>
 
-  <form action="/greet" method="post">
-    <label for="user_name">Name: </label><input type="text" name="user_name" id="user_name">
-    <br><br>
-    <input type="submit">
+  <form action="/greet" method="POST">
+    <label for="user_name">Name:</label>
+
+    <p><input type="text" name="user_name" id="user_name" /></p>
+
+    <input type="submit" value="Submit"/>
   </form>
 
 </body>
