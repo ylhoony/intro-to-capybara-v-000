@@ -2,8 +2,11 @@ class Application < Sinatra::Base
   # Write your code here!
 
   get '/' do
-    "Hello"
-    erb "index"
+    erb :index
+  end
+
+  get '/greeting' do
+    erb :greeting
   end
 
 end
